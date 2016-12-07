@@ -1,0 +1,148 @@
+/* CSS */
+body {
+	font-family: 'Lora', serif;
+	overflow-x: hidden;
+}
+
+section {
+	max-width: 880px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+section h1, section h3 {
+	text-align: center;
+}
+
+section p {
+	line-height: 24px;
+}
+
+.logo__container {
+	width: 350px;
+	margin: 0 auto;
+}
+
+header .main__logo img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.main__nav {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}  
+
+.container-fluid {
+	background: #222;
+}
+
+.nav li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav a {
+	font-size: 1.2em;
+	color: #999 !important;
+}
+
+.nav a:hover {
+	color: #efefef !important;
+}
+
+#main__info img {
+	width: 100%;
+	height: 100%;
+}
+
+.about p {
+	font-size: 1.2em;
+}
+
+.thumbnail {
+	margin-bottom: 0;
+}
+
+#main__food ul {
+	list-style: none;
+}
+
+#main__food li {
+	padding-top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#main__food a {
+	color: #c93030;
+}
+
+#review {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0;
+}
+
+blockquote {
+	border-left: none;
+	font-size: 1.6em;
+	color: #555;
+}
+
+#main__contact ul {
+	font-size: 0.9em;
+	list-style: none;
+}
+
+#main__contact {
+	text-align: center;
+}
+
+#main__contact li {
+	text-align: left;
+}
+#main__contact strong {
+	font-size: 1.5em;
+}
+
+#main__contact span {
+	font-weight: bold;
+}
+
+.main__contact--map {
+	margin-top: 20px;
+}
+
+.social__icons .fa{
+	padding-top: 20px;
+	color: #2a5a5b;
+}
+
+.social__icons .fa:hover{
+	color: #5db579;
+}
+
+footer {
+	padding: 10px;
+}
+
+@media screen and (max-width: 767px){
+	#main__contact li {
+	text-align: center;
+}
+
+	section li {
+		margin-left: -45px;
+	}
+}
